@@ -10,5 +10,5 @@ public class SceneChange : MonoBehaviour
     {
         Invoke("loadScene", 5f);
     }
-    void loadScene() => SceneManager.LoadScene(1);
+    void loadScene() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 }

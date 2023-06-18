@@ -7,7 +7,7 @@ public class EnemyHealth : MonoBehaviour
 {
     private EnemySoundManager sound;
     private SpriteRenderer sprRen;
-    public int health;
+    public int health = 150;
     public float currentHealth;
     private Animator animator;
     [SerializeField] GameObject hitEffect;

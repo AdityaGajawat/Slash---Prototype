@@ -16,7 +16,7 @@ public class playerHealth : MonoBehaviour
     [SerializeField] GameObject deathEffect;
     [SerializeField] Transform hitEffectPos;
 
-    private void Start()
+    private void Awake()
     {
         sound = gameObject.GetComponent<SoundManager>();
         enemy = GameObject.FindWithTag("Enemy");

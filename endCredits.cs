@@ -12,5 +12,5 @@ public class endCredits : MonoBehaviour
             Invoke("endCredit", 2f);    
         }
     }
-    void endCredit() => SceneManager.LoadScene(2);
+    void endCredit() => SceneManager.LoadScene(3);
 }
